@@ -1,0 +1,80 @@
+
+.text-box h3:first-of-type {
+    color: pink;
+}
+
+#greycol {
+    color: grey;
+}
+
+.text-box div p {
+    color: red;
+}
+
+.text-box p:nth-of-type(4) {
+    color: green;
+}
+
+.text-box p.yellow {
+    color: yellow;
+}
+
+.lesson-day h4 {
+    color: blue;
+}
+
+.lesson-day ul li:nth-child(1) {
+    color: darkred;
+}
+
+.lesson-day ul li:nth-child(2) {
+    color: darkorange;
+}
+
+.lesson-day ul li:nth-child(3) {
+    color: darkgreen;
+}
+
+.lesson-day ul li:nth-child(4) {
+    color: darkblue;
+}
+
+.lesson-day ul li:hover {
+    background-color: lightgray;
+}
+
+.lesson-day ul li:active {
+    font-weight: bold;
+}
+
+.lesson-day ul li:first-child {
+    text-decoration: underline;
+}
+
+.lesson-day ul li:last-child {
+    font-style: italic;
+}
+
+.lesson-day ul li:nth-child(even) {
+    background-color: lightyellow;
+}
+
+.lesson-day:nth-child(odd) {
+    border: 1px solid black;
+}
+
+.lesson-day:nth-child(even) {
+    border: 1px dashed black;
+}
+
+.lesson-day:nth-child(1) ul li:nth-of-type(1) {
+    color: purple;
+}
+
+.lesson-day:nth-child(2) ul li:nth-of-type(2) {
+    color: brown;
+}
+
+.lesson-day:nth-child(3) ul li:nth-of-type(3) {
+    color: teal;
+}
